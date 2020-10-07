@@ -1,0 +1,32 @@
+header {
+    min-height: 100vh;
+    background: linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
+    position: relative;
+    padding-bottom: 20%;
+}
+body {
+    margin: 0;
+}
+.bangele {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 25%;
+    height: 100px;
+    border: solid #000 3px;
+    background-color: #FD749B;
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
